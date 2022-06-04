@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+div.container {
+    /* background-color: rgba(125, 125, 125, 0.5); */
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* header */
+
+header {
+    /* background-color: burlywood; */
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px 10px 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h1:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+/* main */
+
+main {
+    width: 100%;
+}
+
+main table {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    width: 80%;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-radius: 25px;
+}
+
+th, td {
+    padding-left: 3px;
+    border-bottom: 1px solid transparent;
+    border-left: 2px solid transparent;
+}
+
+th {
+    height: 50px;
+    text-align: left;
+}
+
+td {
+    height: 40px;
+    vertical-align: middle;
+}
+
+tr:hover {
+    background-color: rgba(127, 255, 212, 0.9);
+}
+
+/* footer */
+
+footer {
+    /* background-color: yellow; */
+    width: 100%;
+    max-width: 500px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a {
+    padding: 1px;
+    text-decoration: none;
+}
+
+footer a , footer a:visited{
+    color: black;
+}
+
+footer a:hover {
+    background-color: rgba(127, 255, 212, 0.4);
+    color: azure;
+}
