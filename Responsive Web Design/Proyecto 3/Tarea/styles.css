@@ -84,10 +84,12 @@ main .contenedor {
     /* display: none; */
     width: 0;
     height: 180px;
+    border-width: 0.5px;
     /* margin-left: 200px; */
 }
 
 .horizontal-line {
     /* display: none; */
     width: 180px;
+    border-width: 0.5px;
 }
